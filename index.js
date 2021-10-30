@@ -18,7 +18,7 @@ metalsmith(__dirname)
       default: 'default.hbs',
     }))
     .use(serve({
-      port: 26785}))
+      port: 28657}))
     .use(
         watch({
           paths: {

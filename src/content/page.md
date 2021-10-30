@@ -1,5 +1,5 @@
 ---
-layout: page.html
+layout: inner.hbs
 title: Just Testing
 color: blue
 ---

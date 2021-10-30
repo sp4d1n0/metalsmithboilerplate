@@ -1,13 +1,16 @@
 {
   "plugins": {
-      "metalsmith-handlebars-layouts": {
-          "data": [],
-          "decorators": [],
-          "helpers": [],
-          "layouts": "./templates/layouts/",
-          "match": "**/*.html",
-          "matchOptions": {},
-          "partials": ["./templates/import/**/*"]
-      }
+    "metalsmith-layouts": {
+      "default": "default.hbs",
+      "directory": "./src/templates/layouts"
+    },
+    "metalsmith-discover-partials": {
+      "directory": "./src/templates/imports",
+      "pattern": "/\\.hbs$/"
+    },
+    "metalsmith-discover-helpers": {
+      "directory": "./src/templates/helpers",
+      "pattern": "/\\.js$/"
+    }
   }
 }

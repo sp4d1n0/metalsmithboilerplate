@@ -1,0 +1,33 @@
+{
+  "name": "metalsmith-starter",
+  "version": "1.0.0",
+  "description": "A starter for metalsmith, with localization and NetlifyCMS",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sp4d1n0/metalsmithboilerplate.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "jamstack"
+  ],
+  "author": "sp4d1n0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sp4d1n0/metalsmithboilerplate/issues"
+  },
+  "homepage": "https://github.com/sp4d1n0/metalsmithboilerplate#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^1.3.0",
+    "prettier": "^2.4.1"
+  }
+}

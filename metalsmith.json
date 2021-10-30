@@ -1,0 +1,13 @@
+{
+  "plugins": {
+      "metalsmith-handlebars-layouts": {
+          "data": [],
+          "decorators": [],
+          "helpers": [],
+          "layouts": "./templates/layouts/",
+          "match": "**/*.html",
+          "matchOptions": {},
+          "partials": ["./templates/import/**/*"]
+      }
+  }
+}

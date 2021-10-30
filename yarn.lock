@@ -619,6 +619,11 @@ extend-shallow@^2.0.1:
   dependencies:
     is-extendable "^0.1.0"
 
+extend@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -1239,6 +1244,13 @@ metalsmith-plugin-kit@^1.1.4:
   integrity sha512-WoKd/NU5xkaX5qHtsnRKohnJ5qEr7GWtnIFdatmmWRlGhHwdwXsGGf4/2wxfCNlsGQ+5SFqiz+puYn99B3U/wg==
   dependencies:
     micromatch "^4.0.2"
+
+metalsmith-register-helpers@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.npmjs.org/metalsmith-register-helpers/-/metalsmith-register-helpers-0.4.1.tgz#d4ec952e70c29e8a384b7dc32c4c9db5a4b39b4f"
+  integrity sha512-wSpG6wGTuOkz0RXu9zKVnQpmJyLONBtPJx3AGcBAOhLMLF/HLfdTVT4p9PBbl3d3Yx0LMfoiskugNGGSnaC7Og==
+  dependencies:
+    extend "^3.0.2"
 
 metalsmith-serve@^0.0.7:
   version "0.0.7"
